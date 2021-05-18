@@ -4,7 +4,7 @@ This avoids conflicts and reduces the file size.
 
 Add this dependency to your Gradle project:
 ```kotlin
-implementation("net.axay:spigot-language-kotlin:VERSION")
+compileOnly("net.axay:spigot-language-kotlin:VERSION")
 ```
 
 Make sure that you declare the dependency in your plugin.yml:
