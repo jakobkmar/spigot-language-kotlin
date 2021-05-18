@@ -12,9 +12,15 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("stdlib"))
-
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
+
+    api(kotlin("stdlib"))
+    api(kotlin("stdlib-jdk8"))
+    api(kotlin("reflect"))
+
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.0")
+    api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
 }
 
 tasks {
