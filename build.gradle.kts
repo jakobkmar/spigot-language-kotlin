@@ -48,6 +48,11 @@ tasks {
         kotlinOptions.jvmTarget = "11"
     }
 
+    shadowJar {
+        archiveClassifier.set("")
+    }
+}
+
 publishing {
     repositories {
         maven("https://oss.sonatype.org/service/local/staging/deploy/maven2") {
