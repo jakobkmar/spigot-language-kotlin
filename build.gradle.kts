@@ -24,4 +24,13 @@ tasks {
             expand("version" to project.version)
         }
     }
+
+    compileJava {
+        options.release.set(11)
+        options.encoding = "UTF-8"
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "11"
+    }
 }
