@@ -2,6 +2,7 @@ plugins {
     kotlin("jvm") version "1.5.0"
     id("com.github.johnrengelman.shadow") version "7.0.0"
     `maven-publish`
+    signing
 }
 
 val githubRepo = "bluefireoly/spigot-language-kotlin"
@@ -51,6 +52,10 @@ tasks {
     shadowJar {
         archiveClassifier.set("plugin")
     }
+}
+
+signing {
+    sign(publishing.publications)
 }
 
 publishing {

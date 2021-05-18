@@ -1,8 +1,6 @@
 # Gradle
 .gradle/
-build/*
-# include the shadow jar
-!build/libs/
+build/
 
 # IDE
 .idea/
