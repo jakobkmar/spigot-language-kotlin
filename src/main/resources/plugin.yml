@@ -1,0 +1,6 @@
+{
+  "name": "spigot-language-kotlin",
+  "version": "${version}",
+
+  "main": "net.axay.spigotlanguagekotlin.Manager"
+}
