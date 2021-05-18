@@ -1,7 +1,8 @@
 # Gradle
 .gradle/
-build/
-# exclude the shadow
+build/*
+# include the shadow jar
+!build/libs/
 
 # IDE
 .idea/
