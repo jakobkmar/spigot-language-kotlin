@@ -54,6 +54,11 @@ tasks {
     }
 }
 
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
 signing {
     sign(publishing.publications)
 }
