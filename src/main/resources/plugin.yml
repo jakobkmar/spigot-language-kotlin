@@ -2,5 +2,7 @@
   "name": "spigot-language-kotlin",
   "version": "${version}",
 
+  "description": "A Spigot plugin including the Kotlin stdlib and all common kotlinx libraries",
+
   "main": "net.axay.spigotlanguagekotlin.Manager"
 }
