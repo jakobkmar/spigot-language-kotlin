@@ -8,7 +8,7 @@ plugins {
 val githubRepo = "bluefireoly/spigot-language-kotlin"
 
 group = "net.axay"
-version = "1.0.0"
+version = "1.0.1"
 
 description = "A Spigot plugin including the Kotlin stdlib and all common kotlinx libraries"
 
