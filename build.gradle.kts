@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.0"
+    kotlin("jvm") version "1.5.10"
     id("com.github.johnrengelman.shadow") version "7.0.0"
     `maven-publish`
     signing
@@ -8,7 +8,7 @@ plugins {
 val githubRepo = "bluefireoly/spigot-language-kotlin"
 
 group = "net.axay"
-version = "1.0.1"
+version = "1.0.3"
 
 description = "A Spigot plugin including the Kotlin stdlib and all common kotlinx libraries"
 
@@ -27,7 +27,8 @@ dependencies {
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
     api("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.0")
     api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
-    api("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.2.1")
+
+    api("io.github.config4k:config4k:0.4.2")
 }
 
 tasks {
