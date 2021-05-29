@@ -13,7 +13,7 @@ Make sure that you declare the dependency in your plugin.yml:
 depend: [ spigot-language-kotlin ]
 ```
 
-If you are using the Gradle shadow plugin anyways, you can exclude **all** Kotlin dependencies from the shadow task by
+*(Optional)* If you are using the Gradle shadow plugin anyways, you can exclude **all** Kotlin dependencies from the shadow task by
 configuring it this way:
 
 ```kotlin
